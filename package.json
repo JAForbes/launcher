@@ -1,0 +1,36 @@
+{
+  "name": "launcher",
+  "version": "0.0.0",
+  "description": "A launcher that associates scripts with metadata and pretty pictures",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "npm-run-all --print-label --parallel start:*",
+    "start:serve": "static --port 80",
+    "complile": "browserify client/index.js -o bundle.js --verbose",
+    "start:watch": "watchify client/index.js -o bundle.js --verbose --debug",
+    "start:api": "node server/index.js"
+  },
+  "author": "james.a.forbes@gmail.com <=> (http://james-forbes.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "cssobjectify": "*",
+    "dexie": "^1.4.1",
+    "express": "^4.14.0",
+    "flexboxgrid": "^6.3.0",
+    "flyd": "^0.2.2",
+    "mithril": "^0.2.5",
+    "node-uuid": "^1.4.7",
+    "ramda": "^0.21.0",
+    "sanctuary": "^0.11.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "cssify": "^1.0.2",
+    "node-static": "^0.7.7",
+    "eslint-plugin-immutable": "^1.0.0",
+    "npm-run-all": "^2.2.2"
+  }
+}
