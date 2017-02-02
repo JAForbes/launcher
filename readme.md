@@ -3,6 +3,13 @@ Launcher
 
 ![Editing a launcher](example.png)
 
+#### Quick start
+
+- git clone
+- npm install
+- node server
+- open browser to localhost
+
 #### What?
 
 An experiment writing a desktop app without requiring electron.
