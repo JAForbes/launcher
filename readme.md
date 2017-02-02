@@ -5,10 +5,17 @@ Launcher
 
 #### Quick start
 
-- git clone
-- npm install
-- node server
+- `git clone git@github.com:JAForbes/launcher.git`
+- `cd launcher`
+- `npm install`
+- `node server`
 - open browser to localhost
+- Click `Create`
+- Give your app a name
+- Specify the director
+- Specify a command to run to launch the app
+- Click `Test Command` to test the command.
+- When your happy, click `Done`
 
 #### What?
 
