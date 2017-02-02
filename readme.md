@@ -12,10 +12,14 @@ Launcher
 - open browser to localhost
 - Click `Create`
 - Give your app a name
+- Upload an image for your application
 - Specify the director
 - Specify a command to run to launch the app
 - Click `Test Command` to test the command.
 - When your happy, click `Done`
+- From the main menu you can now launch your app by clicking on the screenshot.
+- Data is persisted to file system, so feel free to stop the server, restart the browser etc.
+
 
 #### What?
 
