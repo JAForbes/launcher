@@ -8,7 +8,7 @@ Launcher
 - `git clone git@github.com:JAForbes/launcher.git`
 - `cd launcher`
 - `npm install`
-- `node server`
+- `npm start`
 - open browser to localhost
 - Click `Create`
 - Give your app a name
