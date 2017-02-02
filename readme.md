@@ -26,6 +26,6 @@ child processes and we're not locking ourselves into 50mb payloads for 1 - 2mb j
 
 #### Contributing
 
-THis was only a proof of concept.  It works!  But if you want an actual
+This was only a proof of concept.  It works!  But if you want an actual
 frontend for your emulators I suggest checking out retroarch.  If you feel like iterating on
 this idea further, then contributions are certainly welcome!
